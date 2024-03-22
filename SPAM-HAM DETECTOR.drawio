@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" modified="2024-03-22T17:10:47.527Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="54u9Ubkf0bnzZHMu4WQx" version="24.0.5" type="google">
+  <diagram name="Page-1" id="3bgu_79M6y_17_FGwu1P">
+    <mxGraphModel dx="1518" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EgqqCZmeLukIfzgyi-0M-1" value="EMAIL SPAM DETECTOR" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EgqqCZmeLukIfzgyi-0M-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.447;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="EgqqCZmeLukIfzgyi-0M-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="413.0000000000001" y="100" as="sourcePoint" />
+            <mxPoint x="413.36" y="177" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EgqqCZmeLukIfzgyi-0M-3" value="MAKING A BASH FILE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EgqqCZmeLukIfzgyi-0M-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="EgqqCZmeLukIfzgyi-0M-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470.00000000000006" y="250" as="sourcePoint" />
+            <mxPoint x="510" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EgqqCZmeLukIfzgyi-0M-5" value="CREATING THE SPAM FOLDER IF IT DOES NOT EXIST" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EgqqCZmeLukIfzgyi-0M-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.433;exitY=1.043;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414.00000000000006" y="250.00000000000003" as="sourcePoint" />
+            <mxPoint x="414.04" y="317.42" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EgqqCZmeLukIfzgyi-0M-7" value="SETTING PATH TO SPAM FOLDER" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EgqqCZmeLukIfzgyi-0M-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="354" y="250" as="sourcePoint" />
+            <mxPoint x="300" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EgqqCZmeLukIfzgyi-0M-9" value="SETTING THE PATH TO CLIENT&#39;S MAIL BOX" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EgqqCZmeLukIfzgyi-0M-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EgqqCZmeLukIfzgyi-0M-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="490" as="sourcePoint" />
+            <mxPoint x="270" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EgqqCZmeLukIfzgyi-0M-12" value="EXTRACTING KEYWORDS FROM EACH MAIL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EgqqCZmeLukIfzgyi-0M-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="EgqqCZmeLukIfzgyi-0M-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="470" as="sourcePoint" />
+            <mxPoint x="400" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EgqqCZmeLukIfzgyi-0M-14" value="CHECKING FOR COMMON WORDS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EgqqCZmeLukIfzgyi-0M-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="EgqqCZmeLukIfzgyi-0M-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="470" as="sourcePoint" />
+            <mxPoint x="590" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EgqqCZmeLukIfzgyi-0M-16" value="MOVING TO SPAM FOLDER" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EgqqCZmeLukIfzgyi-0M-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="EgqqCZmeLukIfzgyi-0M-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="500" as="sourcePoint" />
+            <mxPoint x="660" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EgqqCZmeLukIfzgyi-0M-18" value="EXECUTING THE CODE IN BASH" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EgqqCZmeLukIfzgyi-0M-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EgqqCZmeLukIfzgyi-0M-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="590" as="sourcePoint" />
+            <mxPoint x="540" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EgqqCZmeLukIfzgyi-0M-20" value="SETTING UP A CRON JOB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
